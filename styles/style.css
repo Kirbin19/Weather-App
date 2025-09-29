@@ -1,0 +1,29 @@
+.content {
+  background-color: rgb(29, 42, 29);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.weather {
+  text-align: center;
+}
+
+.weather-description {
+  display: flex;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+.weather {
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 20px;
+}

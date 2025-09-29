@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="content">
+    <main class="main">
+      <div class="search">
+        <input type="text" placeholder="Введите название города" id="search-input"/>
+        <button class="search-button">
+          <img src="./img/Search.svg" alt="Лупа" />
+        </button>
+      </div>
+      <div class="weather">
+        <div class="weather-heading">
+          <h1 class="weather-city">moscow</h1>
+          <h2 class="weather-temp">25&deg;C</h2>
+        </div>
+        <div class="weather-description">
+          <div class="weather-humidity">
+            <p class="humidity-value">30%</p>
+            <p>влажность</p>
+          </div>
+          <div class="weather-wind">
+            <p class="wind-value">5 Км/ч</p>
+            <p>Скорость ветра</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
