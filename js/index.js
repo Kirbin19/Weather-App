@@ -29,3 +29,5 @@ async function getWeather(city) {
 
   console.log(info);
 }
+
+const str = 'hello world'
